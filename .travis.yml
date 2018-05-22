@@ -14,7 +14,8 @@ install:
     - mv reveal.js-master reveal.js
 
 script:
-    - jupyter nbconvert intro-pyunfold-iihe.ipynb --to slides --reveal-prefix=reveal.js --template output_toggle.tpl
+    - jupyter nbconvert intro-pyunfold-iihe.ipynb --to slides --reveal-prefix=reveal.js
+    #--template output_toggle.tpl
 
 after_success: |
     if [ -n "$GITHUB_API_KEY" ]; then

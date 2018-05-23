@@ -15,5 +15,5 @@ The dependencies to run the notebooks are:
 The slides for this talk can be generated via:
 
 ```bash
-jupyter nbconvert intro-pyunfold-iihe.ipynb --to slides --post serve --template output_toggle.tpl
+jupyter nbconvert intro-pyunfold-iihe.ipynb --to slides --post serve
 ```
